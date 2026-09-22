@@ -1,0 +1,154 @@
+[
+  {
+    "id": "FEAT-01",
+    "category": "Shell & Branding",
+    "name": "Desktop Sidebar Brand",
+    "description": "Displays Dozy logo, title, and tagline",
+    "status": "PASSED",
+    "details": "Brand title: 'Dozy'"
+  },
+  {
+    "id": "FEAT-02",
+    "category": "Header & Profile",
+    "name": "Profile Option Removal",
+    "description": "Verified profile avatar and sidebar user profile are completely removed",
+    "status": "PASSED",
+    "details": "0 profile avatars found in header or sidebar"
+  },
+  {
+    "id": "FEAT-03",
+    "category": "Notifications",
+    "name": "Reminder Notification History Dropdown",
+    "description": "Bell toggles history with active badge, tabs, task name, date/time, category, and action buttons",
+    "status": "PASSED",
+    "details": "Badge: 3, Items: 5, Sample: 'Renew domain registration' (URGENT) on event\nSep 21 at 10:00 AM"
+  },
+  {
+    "id": "FEAT-04",
+    "category": "Notifications",
+    "name": "Notification History Filtering",
+    "description": "Tabs filter reminder notifications by All, Active, and Done status",
+    "status": "PASSED",
+    "details": "Active filtered: 4, Done filtered: 1"
+  },
+  {
+    "id": "FEAT-05",
+    "category": "Notifications",
+    "name": "Notification Dismissal & Close",
+    "description": "Escape key or outside click cleanly closes the notification history panel",
+    "status": "PASSED",
+    "details": "Dropdown closed: True"
+  },
+  {
+    "id": "FEAT-06",
+    "category": "Dashboard",
+    "name": "Quick Capture Mode Selection",
+    "description": "Provides Task, Note, and Reminder modes with Idea eliminated",
+    "status": "PASSED",
+    "details": "Available tabs: ['Task', 'Note', 'Reminder']"
+  },
+  {
+    "id": "FEAT-07",
+    "category": "Dashboard",
+    "name": "Quick Capture Task Creation",
+    "description": "Entering task title and pressing Enter immediately prepends new task to today's checklist",
+    "status": "PASSED",
+    "details": "Successfully created: 'Automated E2E Test Task 1790008713'"
+  },
+  {
+    "id": "FEAT-08",
+    "category": "Dashboard",
+    "name": "Task Checklist Interactions",
+    "description": "Checking checkbox toggles task completion status with strike-through styling and star favorites",
+    "status": "PASSED",
+    "details": "Toggled from completed=False to True"
+  },
+  {
+    "id": "FEAT-09",
+    "category": "Dashboard",
+    "name": "Real-Time Stats & Radial Progress",
+    "description": "Displays real-time stats cards (Tasks, Overdue, Monthly, Streak) and SVG radial progress gauge",
+    "status": "PASSED",
+    "details": "Stat cards: 4, Radial ring visible: True"
+  },
+  {
+    "id": "FEAT-10",
+    "category": "Dashboard",
+    "name": "Mindful Clean UI",
+    "description": "Confirms celebration / confetti button is eliminated per user specification",
+    "status": "PASSED",
+    "details": "Celebration button successfully eliminated"
+  },
+  {
+    "id": "FEAT-11",
+    "category": "Modal & Creation",
+    "name": "Quick Add Full-Fidelity Modal",
+    "description": "Modal opens with Task, Note, Reminder tabs (Idea eliminated), accepts dates, times, categories, priorities, and closes on submit",
+    "status": "PASSED",
+    "details": "Modal tabs: ['Task', 'Note', 'Reminder'], Modal closed successfully: True"
+  },
+  {
+    "id": "FEAT-12",
+    "category": "Calendar Planner",
+    "name": "Monthly Grid & Day Detail View",
+    "description": "Interactive calendar grid showing month navigation, day cells, indicator dots, and scheduled agenda",
+    "status": "PASSED",
+    "details": "Calendar Month: 'September 2026', Days rendered: 32, Selected: 'Monday, Sep 21, 2026'"
+  },
+  {
+    "id": "FEAT-13",
+    "category": "Calendar Planner",
+    "name": "Month Navigation (Prev/Next)",
+    "description": "Allows smooth traversal across months while maintaining task scheduled indicators",
+    "status": "PASSED",
+    "details": "Switched from 'September 2026' to 'October 2026' and back"
+  },
+  {
+    "id": "FEAT-14",
+    "category": "Task History & Audit",
+    "name": "Audit Trail & Carry-Forward Tracking",
+    "description": "Lists task history with rollover badges, completion dates, filter tabs, and real-time text query filter",
+    "status": "PASSED",
+    "details": "Total cards: 7, Carried forward: 1, Completed: 3, Search match: 1"
+  },
+  {
+    "id": "FEAT-15",
+    "category": "Thoughts & Notes Hub",
+    "name": "Notes & Reflections Repository",
+    "description": "Displays searchable note cards with categories, tags, and attachment badges. Confirmed Idea option is excluded.",
+    "status": "PASSED",
+    "details": "Notes rendered: 3, Tabs: ['All (3)', 'Notes (2)', 'Thoughts (1)']"
+  },
+  {
+    "id": "FEAT-16",
+    "category": "Monthly Analytics",
+    "name": "Productivity Metrics & Focused Layout",
+    "description": "Visualizes 4 KPI cards and linear completion gauge, confirming Weekly Distribution and Gentle banner are removed per user request",
+    "status": "PASSED",
+    "details": "KPI Cards: 4, Weekly Chart removed: True, Gentle Banner removed: True"
+  },
+  {
+    "id": "FEAT-17",
+    "category": "Global Search",
+    "name": "Header Global Search Dispatcher",
+    "description": "Pressing Enter on header search navigates directly to history and filters relevant records",
+    "status": "PASSED",
+    "details": "Active view after global search: history"
+  },
+  {
+    "id": "FEAT-18",
+    "category": "Mobile Responsive",
+    "name": "Mobile Dock Navigation & FAB",
+    "description": "Hides sidebar on small screens, displays fluid bottom navigation dock and central quick FAB",
+    "status": "PASSED",
+    "details": "Dock: True, FAB: True, Sidebar hidden: True"
+  },
+  {
+    "id": "FEAT-19",
+    "category": "System Stability",
+    "name": "Zero Console Errors",
+    "description": "Verifies clean browser console execution with zero unhandled exceptions",
+    "status": "PASSED",
+    "details": "Console errors detected: 0 (None)"
+  }
+]

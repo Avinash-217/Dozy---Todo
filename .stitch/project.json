@@ -1,0 +1,224 @@
+{
+  "name": "projects/11110369623405588801",
+  "title": "Dozy - The Todo",
+  "visibility": "PRIVATE",
+  "createTime": "2026-09-21T07:48:13.774705Z",
+  "updateTime": "2026-09-21T07:53:35.496310Z",
+  "projectType": "TEXT_TO_UI_PRO",
+  "thumbnailScreenshot": {
+    "name": "projects/11110369623405588801/screens/b696bf1010cc32f5e508dcc508bb4392a044432da7e3505b6bfc48df8b7d3ba5/fileEntries/screenshot",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1X0WOvXIFlW2yne1bzrxmQUx5-917RzHxFo5CRDSsQKj3W8vU6gWR4Avd_0pwnOkpcNrXx0_koP-RpYsrmzg0TA_f8VD1j2sN1Ge4N8AuQakeP-KvwwbwcmTFUbRr1TAAfyD8vphOCfneHzRTK3zEscczbLDHNvrLqL5lh7E-wsw14C0mZHBGPYR35FdbQs-jQvhf9shr5gZH-5VrqCeO8I1E03lFJ5xpjgt7Lu_lgFowwkKTMKX0pd0tJv"
+  },
+  "origin": "STITCH",
+  "deviceType": "MOBILE",
+  "designTheme": {
+    "colorMode": "LIGHT",
+    "font": "PLUS_JAKARTA_SANS",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#005f4b",
+    "headlineFont": "PLUS_JAKARTA_SANS",
+    "bodyFont": "INTER",
+    "labelFont": "PLUS_JAKARTA_SANS",
+    "namedColors": {
+      "on_secondary_container": "#217128",
+      "on_error": "#ffffff",
+      "on_primary_container": "#8ad6bd",
+      "secondary_fixed": "#a3f69c",
+      "on_surface": "#181c1b",
+      "tertiary": "#333f37",
+      "on_secondary_fixed": "#002204",
+      "inverse_on_surface": "#eef1ef",
+      "primary_container": "#005f4b",
+      "surface_tint": "#176a56",
+      "secondary": "#1b6d24",
+      "tertiary_fixed_dim": "#bdcabe",
+      "on_primary": "#ffffff",
+      "outline_variant": "#bec9c3",
+      "secondary_container": "#a0f399",
+      "primary_fixed_dim": "#89d5bc",
+      "surface_dim": "#d7dbd9",
+      "surface_container_highest": "#e0e3e1",
+      "on_tertiary": "#ffffff",
+      "surface": "#f7faf8",
+      "outline": "#6f7974",
+      "on_secondary": "#ffffff",
+      "on_secondary_fixed_variant": "#005312",
+      "surface_container": "#ebefed",
+      "surface_container_low": "#f1f4f2",
+      "on_primary_fixed": "#002118",
+      "on_tertiary_fixed": "#131e17",
+      "inverse_surface": "#2d3130",
+      "on_error_container": "#93000a",
+      "background": "#f7faf8",
+      "on_background": "#181c1b",
+      "on_primary_fixed_variant": "#00513f",
+      "surface_container_lowest": "#ffffff",
+      "error_container": "#ffdad6",
+      "secondary_fixed_dim": "#88d982",
+      "surface_bright": "#f7faf8",
+      "primary_fixed": "#a5f2d7",
+      "tertiary_fixed": "#d9e6da",
+      "inverse_primary": "#89d5bc",
+      "on_surface_variant": "#3f4945",
+      "tertiary_container": "#4a564d",
+      "surface_container_high": "#e6e9e7",
+      "surface_variant": "#e0e3e1",
+      "on_tertiary_fixed_variant": "#3e4a41",
+      "error": "#ba1a1a",
+      "primary": "#004536",
+      "on_tertiary_container": "#becabf"
+    },
+    "designMd": "---\nname: Dozy Productivity\ncolors:\n  surface: '#f7faf8'\n  surface-dim: '#d7dbd9'\n  surface-bright: '#f7faf8'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f1f4f2'\n  surface-container: '#ebefed'\n  surface-container-high: '#e6e9e7'\n  surface-container-highest: '#e0e3e1'\n  on-surface: '#181c1b'\n  on-surface-variant: '#3f4945'\n  inverse-surface: '#2d3130'\n  inverse-on-surface: '#eef1ef'\n  outline: '#6f7974'\n  outline-variant: '#bec9c3'\n  surface-tint: '#176a56'\n  primary: '#004536'\n  on-primary: '#ffffff'\n  primary-container: '#005f4b'\n  on-primary-container: '#8ad6bd'\n  inverse-primary: '#89d5bc'\n  secondary: '#1b6d24'\n  on-secondary: '#ffffff'\n  secondary-container: '#a0f399'\n  on-secondary-container: '#217128'\n  tertiary: '#333f37'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#4a564d'\n  on-tertiary-container: '#becabf'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#a5f2d7'\n  primary-fixed-dim: '#89d5bc'\n  on-primary-fixed: '#002118'\n  on-primary-fixed-variant: '#00513f'\n  secondary-fixed: '#a3f69c'\n  secondary-fixed-dim: '#88d982'\n  on-secondary-fixed: '#002204'\n  on-secondary-fixed-variant: '#005312'\n  tertiary-fixed: '#d9e6da'\n  tertiary-fixed-dim: '#bdcabe'\n  on-tertiary-fixed: '#131e17'\n  on-tertiary-fixed-variant: '#3e4a41'\n  background: '#f7faf8'\n  on-background: '#181c1b'\n  surface-variant: '#e0e3e1'\ntypography:\n  display-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 32px\n    fontWeight: '700'\n    lineHeight: 40px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 24px\n    fontWeight: '700'\n    lineHeight: 32px\n    letterSpacing: -0.015em\n  headline-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 20px\n    fontWeight: '600'\n    lineHeight: 28px\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 16px\n    fontWeight: '600'\n    lineHeight: 24px\n  body-lg:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-md:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 20px\n  body-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 16px\n  label-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: 20px\n  label-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 12px\n    fontWeight: '600'\n    lineHeight: 16px\n    letterSpacing: 0.02em\n  label-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 10px\n    fontWeight: '600'\n    lineHeight: 14px\n    letterSpacing: 0.04em\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  gutter: 1.25rem\n  gutter-mobile: 0.75rem\n  margin: 2rem\n  margin-mobile: 1rem\n  space-2xs: 0.25rem\n  space-xs: 0.5rem\n  space-sm: 0.75rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2rem\n  space-2xl: 3rem\n---\n\n## Brand & Style\n\nThis design system embodies mindful organization, calm intentionality, and gentle productivity. It is crafted for knowledge workers, students, creatives, and independent thinkers who seek structure without digital fatigue or sensory overload. \n\nThe emotional tone balances grounding reassurance with playful momentum: it never shouts deadlines with anxiety-inducing urgency, but rather frames tasks as mindful milestones along an ongoing continuum of growth.\n\nThe design movement blends **Warm Functional Modernism** with soft tactile nuances:\n- **Calm Foundations:** Subtle sage and pale mist backdrops reduce glare and visual friction compared to pure sterile whites.\n- **Deep Botanical Anchors:** Rich forest greens, dark teal accents, and warm charcoal text evoke natural focus, organic progress, and grounded clarity.\n- **Tactile Softness:** Generous card radiuses, organic pill containers, and soft ambient drop shadows create layered sheets of physical stationery.\n- **Color-Coded Wayfinding:** Semantic accents (warm rose, golden amber, sky blue, and vibrant tangerine) provide intuitive glanceability across statuses without overwhelming the peaceful palette.\n\n## Colors\n\nThe palette is rooted in botanical greens and tranquil neutrals, complemented by functional pastel indicators.\n\n### Primary & Core Greens\n- **Deep Teal / Forest Pine (`#005F4B`):** Main brand anchor used for primary action buttons, active navigation states, key metric rings, and strong headers.\n- **Vibrant Foliage (`#2E7D32`):** Secondary accent for task completion indicators, success confirmations, and trend indicators.\n- **Sidebar Slate Teal (`#122A24` to `#1B3B32`):** Rich, dark botanical background used for persistent desktop navigation panels to ground the user's peripheral field.\n\n### Canvas & Surface Layers\n- **App Canvas (`#F4F7F5`):** Soft, tinted mint-tinted gray that softens harsh monitor contrast.\n- **Surface Cards (`#FFFFFF`):** Crisp white containers that cleanly float over the subtle canvas background.\n- **Subtle Surface Tint (`#EBF3EF`):** Input fills, inactive pill tabs, and resting tag backgrounds.\n\n### Semantic Status Accents\n- **Overdue / Critical (`#D32F2F` / Soft Red Tint `#FFEBEE`):** Alerts, urgent markers, and overdue task count capsules.\n- **High Priority / Favorite (`#ED6C02` / Warm Amber Tint `#FFF3E0`):** Star highlights, medium-to-high urgency badges.\n- **Streak & Momentum (`#F57C00` / Soft Orange `#FFE0B2`):** Flame icons, streak badges, and active daily chains.\n- **Completed / Info (`#0288D1` / Soft Blue `#E1F5FE`):** Completed archives, informational badges, and auxiliary charts.\n- **Neutral Typography (`#1A2521` Primary, `#5F716B` Secondary, `#94A39D` Placeholder):** Balanced slate-charcoals tinted with green undertones for harmonious readability.\n\n## Typography\n\nThe typographic pairing pairs **Plus Jakarta Sans** for headlines and structural navigational labels with **Inter** for dense task descriptions, notes, and interactive metadata.\n\n- **Plus Jakarta Sans** brings warm geometric curves and soft stroke terminals that inject optimism into greetings, section heads, and quantitative counters.\n- **Inter** ensures maximum legibility at compact sizes inside checklist items, sub-descriptions, timestamps, and input forms.\n- **Numerals & Metrics:** Large metrics (e.g., streak counts, progress percentages) utilize bold weights of Plus Jakarta Sans with tabular lining figures to maintain column alignment across dynamic counters.\n- **Visual Rhythm:** Generous line heights (`1.4` to `1.5`) across body copy ensure high legibility and a feeling of open breathing room.\n\n## Layout & Spacing\n\nThe layout is constructed on an adaptive modular grid structured around a persistent primary control rail and dynamic widget dashboards.\n\n### Grid & Structure\n- **Desktop (1200px+):** Fixed 260px dark pine navigation sidebar flanked by an asymmetric 12-column content grid with `gutter` of 1.25rem and 2rem outer padding. Task boards and progress dashboards divide comfortably into 4-column, 6-column, and full-span card clusters.\n- **Tablet (768px - 1199px):** Collapsible sidebar rail (80px icon navigation), reducing content layout to 6 columns with 1rem gutters.\n- **Mobile (< 768px):** Single-column layout with a fixed bottom navigation dock and floating quick-add trigger button. Outer container padding tightens to 1rem (`margin-mobile`), stacking summary statistics horizontally in an edge-to-edge scrollable container.\n\n### Spacing Philosophy\n- Use `space-xs` (8px) and `space-sm` (12px) for related inline items (checkbox to label, tag icon to text).\n- Use `space-md` (16px) and `space-lg` (24px) for card interior padding to give elements generous breathing room.\n- Use `space-xl` (32px) for spacing between unrelated dashboard groupings (e.g., separating primary metric stat cards from active checklists).\n\n## Elevation & Depth\n\nVisual hierarchy uses clean **tonal layering** and **ambient drop shadows** tinted with a microscopic fraction of emerald green to avoid sterile, dead-gray cast shadows.\n\n### Elevation Levels\n- **Level 0 (Canvas):** The base background (`#F4F7F5`), flat and matte.\n- **Level 1 (Resting Cards & Panels):** Pure white cards set against the canvas with a soft ambient shadow:\n  `box-shadow: 0 4px 16px -2px rgba(18, 42, 36, 0.05), 0 1px 3px 0 rgba(18, 42, 36, 0.03);`\n  Combined with an ultra-soft hair border: `border: 1px solid rgba(0, 95, 75, 0.04);`\n- **Level 2 (Active / Hover / Popovers):** Interactive cards upon cursor focus, dropdown menus, and quick-capture popovers:\n  `box-shadow: 0 10px 25px -5px rgba(18, 42, 36, 0.08), 0 4px 10px -2px rgba(18, 42, 36, 0.04);`\n- **Level 3 (Modals & Bottom Drawers):** Detailed task editing sheets and focused dialogs:\n  `box-shadow: 0 24px 48px -12px rgba(18, 42, 36, 0.16);` coupled with a softened botanical backdrop dim (`rgba(18, 42, 36, 0.45)` with `backdrop-filter: blur(4px)`).\n\n### Dark Sidebar Elevation\nThe sidebar relies on dark tonal layering (`#122A24` base with `#1A3B32` active pill indicators and `#234C40` hover states) without requiring drop shadows.\n\n## Shapes\n\nThe shape system reinforces a friendly, calm, and approachable visual language through soft, rounded contours:\n\n- **Standard Cards & Surfaces:** Standardized to `1rem` (16px, `rounded-2xl` equivalent) for desktop dashboard widgets, modal panels, and metric containers.\n- **Input Fields & Textareas:** Form controls use `0.625rem` (10px) to balance friendly softness with structured data entry.\n- **Buttons, Badges & Chips:** Full pill geometries (`rounded-full` / 9999px) are used for quick-filter tabs, status pills, category chips, and floating action triggers.\n- **Checkboxes:** Smoothly rounded squares (`6px` border radius) that transition into saturated green filled states upon completion.\n\n## Components\n\n### Buttons\n- **Primary:** Forest Pine background (`#005F4B`), crisp white text, full pill roundedness, subtle inward shadow on active press, and an elevation lift on hover.\n- **Secondary / Soft:** Pale mint tint (`#E8F5E9`), dark green label (`#005F4B`), borderless, designed for low-friction actions like \"Add Task\" or \"View all\".\n- **Floating Action Button (Mobile):** Prominent circular button (`52px x 52px`), primary green fill, white plus icon, positioned centrally within or above the bottom navigation dock.\n\n### Metric & Status Cards\n- **Overview Stat Cards:** Compact white surface with a soft rounded icon container tinted in the metric's functional hue (e.g., soft green for completed, peach for overdue, amber for streak). Large headline number, accompanied by micro-caption progress notes.\n- **Progress Widgets:** Integrated circular progress rings featuring a dark teal stroke (`#005F4B`) with a muted mint background track (`#E0EDE6`), paired with subtle contextual quotes and horizontal weekly activity bar charts.\n\n### Checklists & Task Items\n- **Resting Item:** Transparent or white row with a 6px rounded checkbox, dark charcoal task title, subtle muted timestamp, priority flag/star, and category tag.\n- **Completed Item:** Animated check fill in `#2E7D32`, subtle strike-through across the task title, and text color muted to `#94A39D`.\n\n### Chips & Quick Capture Tabs\n- **Category Chips:** Pill-shaped, composed of soft pastel fills (e.g., `#E1F5FE` for Project, `#F3E5F5` for Health, `#E8F5E9` for Personal) with corresponding saturated typography.\n- **Mode Selectors (Task / Note / Idea / Reminder):** Segmented pill group where the active item receives a solid pine background (`#005F4B`) and white text, while inactive items rest on a faint off-white substrate.\n\n### Form Inputs & Calendar Dates\n- **Quick Capture Input:** Minimalist text field with a faint sage outline (`rgba(0, 95, 75, 0.1)`), transitioning to a crisp 1.5px `#005F4B` border on focus without harsh browser rings.\n- **Calendar Matrix:** Clean typography with high-contrast active day circles (`#005F4B` background with white text) and small colored dots below dates to indicate task density.",
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#005f4b",
+    "overrideSecondaryColor": "#2e7d32",
+    "overrideTertiaryColor": "#e8f5e9",
+    "overrideNeutralColor": "#f4f7f5",
+    "spacingScale": 2,
+    "typography": {
+      "body-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      "headline-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "24px"
+      },
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px"
+      },
+      "label-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "lineHeight": "14px",
+        "letterSpacing": "0.04em"
+      },
+      "headline-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "lineHeight": "32px",
+        "letterSpacing": "-0.015em"
+      },
+      "headline-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "lineHeight": "28px",
+        "letterSpacing": "-0.01em"
+      },
+      "label-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "20px"
+      },
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px"
+      },
+      "display-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.02em"
+      },
+      "label-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "12px",
+        "fontWeight": "600",
+        "lineHeight": "16px",
+        "letterSpacing": "0.02em"
+      }
+    },
+    "spacing": {
+      "space-2xs": "0.25rem",
+      "space-md": "1rem",
+      "space-xs": "0.5rem",
+      "margin-mobile": "1rem",
+      "gutter-mobile": "0.75rem",
+      "space-2xl": "3rem",
+      "gutter": "1.25rem",
+      "space-sm": "0.75rem",
+      "space-xl": "2rem",
+      "space-lg": "1.5rem",
+      "margin": "2rem"
+    },
+    "headlineFontFamily": "Plus Jakarta Sans",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "Plus Jakarta Sans"
+  },
+  "screenInstances": [
+    {
+      "id": "414ca4872fea4facac3a233cb31e5ee8",
+      "sourceScreen": "projects/11110369623405588801/screens/414ca4872fea4facac3a233cb31e5ee8",
+      "x": 3730,
+      "width": 390,
+      "height": 1346
+    },
+    {
+      "id": "6e8d7067-0494-41e8-9762-0ddaa33ddafc",
+      "sourceScreen": "projects/11110369623405588801/screens/11552637280855138978",
+      "width": 512,
+      "height": 341,
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "7dcc99e3c73345968ef874f4bfaa0b68",
+      "sourceScreen": "projects/11110369623405588801/screens/7dcc99e3c73345968ef874f4bfaa0b68",
+      "x": 1133,
+      "width": 128,
+      "height": 168
+    },
+    {
+      "id": "9725186bf74f43a6b71db77c8af7ab6a",
+      "sourceScreen": "projects/11110369623405588801/screens/9725186bf74f43a6b71db77c8af7ab6a",
+      "x": 3276,
+      "width": 390,
+      "height": 1700
+    },
+    {
+      "id": "a92d1f1ab977493fba0ff4a359904ec1",
+      "sourceScreen": "projects/11110369623405588801/screens/a92d1f1ab977493fba0ff4a359904ec1",
+      "x": 2368,
+      "width": 390,
+      "height": 2009
+    },
+    {
+      "id": "assets_81de787cca634e81878bce8b2e0593f9",
+      "x": 1344,
+      "width": 960,
+      "height": 540,
+      "sourceAsset": "assets/81de787cca634e81878bce8b2e0593f9",
+      "type": "DESIGN_SYSTEM_INSTANCE"
+    },
+    {
+      "id": "b986208b22aa40ae84c65464f4377974",
+      "sourceScreen": "projects/11110369623405588801/screens/b986208b22aa40ae84c65464f4377974",
+      "x": 2822,
+      "width": 390,
+      "height": 1112
+    },
+    {
+      "id": "f810bf9f29794d78a0ed9ab52a9db5e2",
+      "sourceScreen": "projects/11110369623405588801/screens/f810bf9f29794d78a0ed9ab52a9db5e2",
+      "x": 576,
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "metadata": {
+    "userRole": "OWNER"
+  }
+}

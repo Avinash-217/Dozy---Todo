@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error": "#ffffff", "surface-container-low": "#f1f4f2", "on-secondary-fixed": "#002204", "on-primary-container": "#8ad6bd", "on-surface": "#181c1b", "outline-variant": "#bec9c3", "surface-container-lowest": "#ffffff", "on-primary-fixed": "#002118", "error": "#ba1a1a", "surface-bright": "#f7faf8", "inverse-primary": "#89d5bc", "surface-tint": "#176a56", "on-primary": "#ffffff", "primary": "#004536", "surface-container-high": "#e6e9e7", "on-error-container": "#93000a", "on-tertiary-fixed": "#131e17", "secondary": "#1b6d24", "surface-dim": "#d7dbd9", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#bdcabe", "on-secondary-fixed-variant": "#005312", "outline": "#6f7974", "error-container": "#ffdad6", "on-background": "#181c1b", "secondary-fixed-dim": "#88d982", "tertiary": "#333f37", "surface-container-highest": "#e0e3e1", "secondary-container": "#a0f399", "surface-container": "#ebefed", "on-tertiary-fixed-variant": "#3e4a41", "tertiary-fixed": "#d9e6da", "primary-fixed-dim": "#89d5bc", "tertiary-container": "#4a564d", "inverse-on-surface": "#eef1ef", "surface-variant": "#e0e3e1", "primary-fixed": "#a5f2d7", "on-tertiary-container": "#becabf", "primary-container": "#005f4b", "secondary-fixed": "#a3f69c", "on-secondary": "#ffffff", "surface": "#f7faf8", "inverse-surface": "#2d3130", "on-secondary-container": "#217128", "on-surface-variant": "#3f4945", "on-primary-fixed-variant": "#00513f", "background": "#f7faf8" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-mobile": "1rem", "space-xl": "2rem", "space-xs": "0.5rem", "space-2xs": "0.25rem", "space-md": "1rem", "margin": "2rem", "space-2xl": "3rem", "gutter": "1.25rem", "space-lg": "1.5rem", "space-sm": "0.75rem", "gutter-mobile": "0.75rem" }, "fontFamily": { "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "body-sm": ["Inter"], "display-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-background font-body-md text-on-surface min-h-screen flex flex-col antialiased"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs min-w-0"><button aria-label="Go Back" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="Dozy App Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1X0WOvXIFlW2yne1bzrxmQUx5-917RzHxFo5CRDSsQKj3W8vU6gWR4Avd_0pwnOkpcNrXx0_koP-RpYsrmzg0TA_f8VD1j2sN1Ge4N8AuQakeP-KvwwbwcmTFUbRr1TAAfyD8vphOCfneHzRTK3zEscczbLDHNvrLqL5lh7E-wsw14C0mZHBGPYR35FdbQs-jQvhf9shr5gZH-5VrqCeO8I1E03lFJ5xpjgt7Lu_lgFowwkKTMKX0pd0tJv"/><div class="flex flex-col min-w-0 leading-tight"><h1 class="font-headline-sm text-headline-sm text-on-surface truncate">Quick Add</h1><span class="font-label-sm text-label-sm text-outline truncate">Dozy · Think · Plan · Do · Grow</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_2px_6px_rgba(0,69,54,0.12)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfTE45t28wFtPjuBES9OR5_hWZql9Da5B7hkfmtqRJPNpOFmOG641MjyTuhzexPud8icCYE8H2pUj3HfDC26GJPsCEr-h0Ih09m1xHWYeIsiiv4aYINJHJO4M0ZKAXSnwNh5Oed5IIkRKgNwZSpWeery-FFxTBTf-R6d60wesOb0dV4FBfStnqmojkuutLtwAvHYWuClK7C3yE9oxQNzacWYd1zAzOksXbYZgXihDWyD764-dO3EdxnQ"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full px-margin-mobile pb-space-2xl gap-space-md">
+<!-- Subtle Ambient Illustration/Banner -->
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container-low p-space-md shadow-sm flex items-center justify-between">
+<div class="flex flex-col min-w-0 pr-space-sm z-10">
+<div class="flex items-center gap-space-2xs text-primary mb-1">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Mindful Flow</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Capture Thought</h2>
+<p class="font-body-sm text-body-sm text-outline">Clear your mind. We'll keep it organized.</p>
+</div>
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Warm aesthetic top-down flatlay of a sage botanical desk, textured cream stationery paper, wooden pencil, minimalist bronze paperclip, warm morning sunbeam cast soft shadows in soft mint and forest tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsEpG4fri1OHGEJGWCp9_ETz6wqx87mPk3AMe2NH2dVgUL_wHj4xMI6K4--zUxdBGmAjJ1juTa5_3WzNnWHaz5x4iD_BxSkO-zX5y7M_BL7_KHD8GhBdLxzb5IyYPVmsWDn6OGkp7z6IAb-Vs6Y082XnyFvPyG1S6aqk-vbBhANUA9ykb0C50ZVKKypLkscSOuks8oS5asgO9IReCp17ywSt7jkvc-XtV03TZN513PBc6ARCmlRBJ90A"/>
+</div>
+</div>
+<!-- Main Card Container -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-md">
+<!-- Segmented Mode Pills -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline font-semibold uppercase tracking-wider">Entry Type</label>
+<div class="flex items-center gap-space-2xs p-1 bg-surface-container-low rounded-full" id="typePillGroup">
+<button class="type-pill flex-1 py-1.5 px-space-xs rounded-full font-label-md text-label-md flex items-center justify-center gap-1 transition-all duration-200 bg-primary-container text-on-primary shadow-sm" data-type="Task" onclick="setType('Task')" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>Task</span>
+</button>
+<button class="type-pill flex-1 py-1.5 px-space-xs rounded-full font-label-md text-label-md flex items-center justify-center gap-1 transition-all duration-200 text-on-surface-variant hover:text-on-surface" data-type="Note" onclick="setType('Note')" type="button">
+<span class="material-symbols-outlined text-[16px]">edit_note</span>
+<span>Note</span>
+</button>
+<button class="type-pill flex-1 py-1.5 px-space-xs rounded-full font-label-md text-label-md flex items-center justify-center gap-1 transition-all duration-200 text-on-surface-variant hover:text-on-surface" data-type="Idea" onclick="setType('Idea')" type="button">
+<span class="material-symbols-outlined text-[16px]">lightbulb</span>
+<span>Idea</span>
+</button>
+<button class="type-pill flex-1 py-1.5 px-space-xs rounded-full font-label-md text-label-md flex items-center justify-center gap-1 transition-all duration-200 text-on-surface-variant hover:text-on-surface" data-type="Reminder" onclick="setType('Reminder')" type="button">
+<span class="material-symbols-outlined text-[16px]">notifications</span>
+<span>Reminder</span>
+</button>
+</div>
+</div>
+<!-- Title Field -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="taskTitle">
+<span>Title</span>
+<span class="font-body-sm text-body-sm text-outline font-normal">Required</span>
+</label>
+<div class="relative flex items-center">
+<input class="w-full bg-surface-container-low rounded-lg px-space-md py-2.5 font-body-md text-body-md text-on-surface placeholder:text-outline-variant outline-none focus:bg-surface-container transition-colors" id="taskTitle" placeholder="e.g., Complete DBMS assignment..." type="text"/>
+</div>
+</div>
+<!-- Description Area -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="taskDesc">Description</label>
+<div class="relative">
+<textarea class="w-full bg-surface-container-low rounded-lg p-space-md font-body-md text-body-md text-on-surface placeholder:text-outline-variant outline-none focus:bg-surface-container resize-none transition-colors" id="taskDesc" placeholder="Add context, references, or next mindful actions..." rows="3"></textarea>
+</div>
+</div>
+<!-- Date & Time Row -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Schedule</label>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="flex items-center gap-space-xs bg-surface-container-low hover:bg-surface-container px-space-sm py-2.5 rounded-lg text-left transition-colors" id="datePickerBtn" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">calendar_month</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline">Date</span>
+<span class="font-label-md text-label-md text-on-surface truncate">20 Sep 2026</span>
+</div>
+</button>
+<button class="flex items-center gap-space-xs bg-surface-container-low hover:bg-surface-container px-space-sm py-2.5 rounded-lg text-left transition-colors" id="timePickerBtn" type="button">
+<span class="material-symbols-outlined text-[18px] text-outline">schedule</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline">Time</span>
+<span class="font-label-md text-label-md text-outline truncate" id="timeDisplay">Select time</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Priority Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Priority Level</label>
+<div class="grid grid-cols-3 gap-space-xs" id="priorityGroup">
+<button class="priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-all hover:bg-surface-container" data-priority="low" onclick="setPriority('low')" type="button">
+<span class="material-symbols-outlined text-[16px] text-secondary">eco</span>
+<span>Low</span>
+</button>
+<button class="priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-all hover:bg-surface-container" data-priority="med" onclick="setPriority('med')" type="button">
+<span class="material-symbols-outlined text-[16px] text-tertiary">flag</span>
+<span>Medium</span>
+</button>
+<button class="priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-error-container text-on-error-container shadow-sm transition-all" data-priority="high" onclick="setPriority('high')" type="button">
+<span class="material-symbols-outlined text-[16px] text-error">priority_high</span>
+<span>High</span>
+</button>
+</div>
+</div>
+<!-- Tags & Smart Suggestions -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="tagInput">Tags &amp; Categories</label>
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-outline">tag</span>
+<input class="bg-transparent w-full font-body-md text-body-md text-on-surface placeholder:text-outline-variant outline-none" id="tagInput" placeholder="Add custom tag..." type="text"/>
+</div>
+<!-- Suggested Tags / Chips -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<button class="tag-chip px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-primary font-semibold transition-all" onclick="toggleTag(this)" type="button">#college</button>
+<button class="tag-chip px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed-variant font-semibold transition-all" onclick="toggleTag(this)" type="button">#dbms</button>
+<button class="tag-chip px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant transition-all" onclick="toggleTag(this)" type="button">#health</button>
+<button class="tag-chip px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant transition-all" onclick="toggleTag(this)" type="button">#personal</button>
+<button class="tag-chip px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant transition-all" onclick="toggleTag(this)" type="button">#reading</button>
+</div>
+</div>
+<!-- Attachments Section -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Attachments</label>
+<!-- Upload Drop Area / Button -->
+<div class="w-full rounded-xl bg-surface-container-low p-space-md flex flex-col items-center justify-center gap-1.5 cursor-pointer hover:bg-surface-container transition-colors text-center" onclick="simulateFileUpload()">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">cloud_upload</span>
+</div>
+<div class="font-label-md text-label-md text-on-surface">Attach files or folders</div>
+<p class="font-body-sm text-body-sm text-outline">PDF, Images, DOC up to 25MB</p>
+</div>
+<!-- Attachment Thumbnails / List -->
+<div class="flex items-center gap-space-xs mt-1" id="attachmentList">
+<div class="flex-1 flex items-center gap-space-xs bg-surface-container-low p-2 rounded-lg min-w-0">
+<div class="w-7 h-7 rounded bg-error-container text-error flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-label-md text-label-md text-on-surface truncate">assignment_brief.pdf</span>
+<span class="font-body-sm text-body-sm text-outline">1.2 MB</span>
+</div>
+<button class="w-6 h-6 flex items-center justify-center text-outline hover:text-error rounded-full" onclick="this.parentElement.remove()" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<div class="w-12 h-11 rounded-lg overflow-hidden relative flex-shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="High resolution macro photo of neatly arranged handwritten notes with color-coded highlighters on soft natural grain paper with soft daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW_7Wbv67wLe0JwC2tvNbzxa8ow8sKkIO092v80F40nxWPTOeypIl3u7j4EZkM-klj2kmeGyV0MKZjOB0vj9RXemktCtcR-K6jRlZ_CbCHZr2OpFfLckfzxyZAKygSW0TudCTiYgZjvrvngiFoeFniNIPu907DfrBIqqWmgKbXu-_mS_RFLCC0K0CaJ0ARgCugDkJN9Z64y4kBJyGjMWhHZDLjZy6OJlTF8FtMbFKnzhfb6k_aaN1D9A"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Bar / Sheet Controls -->
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 py-3 px-space-md rounded-full bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-transform active:scale-95 text-center" onclick="history.back()" type="button">
+      Cancel
+    </button>
+<button class="flex-[2] py-3 px-space-md rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary transition-all active:scale-95 flex items-center justify-center gap-space-xs" id="saveButton" onclick="handleSave()" type="button">
+<span class="material-symbols-outlined text-[18px]">check</span>
+<span>Save Task</span>
+</button>
+</div>
+<!-- Success Toast Overlay (Hidden initially) -->
+<div class="fixed bottom-6 left-4 right-4 bg-primary text-on-primary rounded-xl p-space-md shadow-xl flex items-center gap-space-sm transform translate-y-32 transition-transform duration-300 pointer-events-none z-50" id="saveToast">
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">done_all</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-label-md text-label-md font-bold">Mindfully Saved</span>
+<span class="font-body-sm text-body-sm opacity-90 truncate">Your item has been scheduled in Dozy.</span>
+</div>
+</div>
+</div>
+<script>
+  function setType(type) {
+    const pills = document.querySelectorAll('.type-pill');
+    pills.forEach(p => {
+      if (p.dataset.type === type) {
+        p.className = 'type-pill flex-1 py-1.5 px-space-xs rounded-full font-label-md text-label-md flex items-center justify-center gap-1 transition-all duration-200 bg-primary-container text-on-primary shadow-sm';
+      } else {
+        p.className = 'type-pill flex-1 py-1.5 px-space-xs rounded-full font-label-md text-label-md flex items-center justify-center gap-1 transition-all duration-200 text-on-surface-variant hover:text-on-surface';
+      }
+    });
+
+    const saveText = document.querySelector('#saveButton span:last-child');
+    if (saveText) {
+      saveText.textContent = `Save ${type}`;
+    }
+  }
+
+  function setPriority(level) {
+    const btns = document.querySelectorAll('.priority-btn');
+    btns.forEach(btn => {
+      if (btn.dataset.priority === level) {
+        if (level === 'high') {
+          btn.className = 'priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-error-container text-on-error-container shadow-sm transition-all';
+        } else if (level === 'med') {
+          btn.className = 'priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-surface-container-highest text-on-surface shadow-sm font-semibold transition-all';
+        } else {
+          btn.className = 'priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-secondary-container text-on-secondary-container shadow-sm font-semibold transition-all';
+        }
+      } else {
+        btn.className = 'priority-btn flex items-center justify-center gap-1.5 py-2 px-space-xs rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-all hover:bg-surface-container';
+      }
+    });
+  }
+
+  function toggleTag(el) {
+    const isSelected = el.classList.contains('bg-primary-fixed');
+    if (isSelected) {
+      el.classList.remove('bg-primary-fixed', 'text-on-primary-fixed-variant');
+      el.classList.add('bg-surface-container', 'text-on-surface-variant');
+    } else {
+      el.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      el.classList.add('bg-primary-fixed', 'text-on-primary-fixed-variant');
+    }
+  }
+
+  const timeBtn = document.getElementById('timePickerBtn');
+  const timeDisplay = document.getElementById('timeDisplay');
+  if (timeBtn && timeDisplay) {
+    timeBtn.addEventListener('click', () => {
+      timeDisplay.textContent = '09:00 AM';
+      timeDisplay.classList.remove('text-outline');
+      timeDisplay.classList.add('text-on-surface');
+      const icon = timeBtn.querySelector('.material-symbols-outlined');
+      if (icon) {
+        icon.classList.remove('text-outline');
+        icon.classList.add('text-primary');
+      }
+    });
+  }
+
+  function simulateFileUpload() {
+    const list = document.getElementById('attachmentList');
+    if (!list) return;
+    const item = document.createElement('div');
+    item.className = 'flex-1 flex items-center gap-space-xs bg-surface-container-low p-2 rounded-lg min-w-0 transition-all';
+    item.innerHTML = `
+      <div class="w-7 h-7 rounded bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0">
+        <span class="material-symbols-outlined text-[16px]">draft</span>
+      </div>
+      <div class="flex flex-col min-w-0 flex-1">
+        <span class="font-label-md text-label-md text-on-surface truncate">lecture_notes.md</span>
+        <span class="font-body-sm text-body-sm text-outline">480 KB</span>
+      </div>
+      <button type="button" onclick="this.parentElement.remove()" class="w-6 h-6 flex items-center justify-center text-outline hover:text-error rounded-full">
+        <span class="material-symbols-outlined text-[14px]">close</span>
+      </button>
+    `;
+    list.prepend(item);
+  }
+
+  function handleSave() {
+    const toast = document.getElementById('saveToast');
+    if (toast) {
+      toast.classList.remove('translate-y-32');
+      toast.classList.add('translate-y-0');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0');
+        toast.classList.add('translate-y-32');
+      }, 2400);
+    }
+  }
+</script></main></body></html>

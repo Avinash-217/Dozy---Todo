@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error": "#ffffff", "surface-container-low": "#f1f4f2", "on-secondary-fixed": "#002204", "on-primary-container": "#8ad6bd", "on-surface": "#181c1b", "outline-variant": "#bec9c3", "surface-container-lowest": "#ffffff", "on-primary-fixed": "#002118", "error": "#ba1a1a", "surface-bright": "#f7faf8", "inverse-primary": "#89d5bc", "surface-tint": "#176a56", "on-primary": "#ffffff", "primary": "#004536", "surface-container-high": "#e6e9e7", "on-error-container": "#93000a", "on-tertiary-fixed": "#131e17", "secondary": "#1b6d24", "surface-dim": "#d7dbd9", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#bdcabe", "on-secondary-fixed-variant": "#005312", "outline": "#6f7974", "error-container": "#ffdad6", "on-background": "#181c1b", "secondary-fixed-dim": "#88d982", "tertiary": "#333f37", "surface-container-highest": "#e0e3e1", "secondary-container": "#a0f399", "surface-container": "#ebefed", "on-tertiary-fixed-variant": "#3e4a41", "tertiary-fixed": "#d9e6da", "primary-fixed-dim": "#89d5bc", "tertiary-container": "#4a564d", "inverse-on-surface": "#eef1ef", "surface-variant": "#e0e3e1", "primary-fixed": "#a5f2d7", "on-tertiary-container": "#becabf", "primary-container": "#005f4b", "secondary-fixed": "#a3f69c", "on-secondary": "#ffffff", "surface": "#f7faf8", "inverse-surface": "#2d3130", "on-secondary-container": "#217128", "on-surface-variant": "#3f4945", "on-primary-fixed-variant": "#00513f", "background": "#f7faf8" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-mobile": "1rem", "space-xl": "2rem", "space-xs": "0.5rem", "space-2xs": "0.25rem", "space-md": "1rem", "margin": "2rem", "space-2xl": "3rem", "gutter": "1.25rem", "space-lg": "1.5rem", "space-sm": "0.75rem", "gutter-mobile": "0.75rem" }, "fontFamily": { "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "body-sm": ["Inter"], "display-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-background font-body-md text-on-surface min-h-screen flex flex-col antialiased"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs min-w-0 flex-1"><img alt="Dozy App Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1X0WOvXIFlW2yne1bzrxmQUx5-917RzHxFo5CRDSsQKj3W8vU6gWR4Avd_0pwnOkpcNrXx0_koP-RpYsrmzg0TA_f8VD1j2sN1Ge4N8AuQakeP-KvwwbwcmTFUbRr1TAAfyD8vphOCfneHzRTK3zEscczbLDHNvrLqL5lh7E-wsw14C0mZHBGPYR35FdbQs-jQvhf9shr5gZH-5VrqCeO8I1E03lFJ5xpjgt7Lu_lgFowwkKTMKX0pd0tJv"/><div class="flex flex-col min-w-0 leading-tight"><div class="flex items-center gap-space-2xs"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">Dozy</span><span class="text-outline-variant font-body-sm text-body-sm">•</span><span class="font-label-sm text-label-sm text-on-surface truncate">Calendar</span></div><span class="font-label-sm text-label-sm text-outline truncate">Think · Plan · Do · Grow</span></div></div><div class="flex items-center gap-space-2xs flex-shrink-0"><button aria-label="Search" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary"></span></button><div class="pl-space-2xs flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_2px_6px_rgba(0,69,54,0.12)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfTE45t28wFtPjuBES9OR5_hWZql9Da5B7hkfmtqRJPNpOFmOG641MjyTuhzexPud8icCYE8H2pUj3HfDC26GJPsCEr-h0Ih09m1xHWYeIsiiv4aYINJHJO4M0ZKAXSnwNh5Oed5IIkRKgNwZSpWeery-FFxTBTf-R6d60wesOb0dV4FBfStnqmojkuutLtwAvHYWuClK7C3yE9oxQNzacWYd1zAzOksXbYZgXihDWyD764-dO3EdxnQ"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-28 bg-surface"><div class="flex flex-col w-full">
+<div class="px-margin-mobile pt-space-xs pb-space-lg flex flex-col gap-space-md max-w-xl mx-auto w-full">
+<!-- Top Warm Greeting & Glance Pill -->
+<div class="flex items-center justify-between bg-surface-container-low px-space-md py-space-xs rounded-full shadow-sm">
+<div class="flex items-center gap-space-2xs min-w-0">
+<span class="material-symbols-outlined text-primary text-[18px]">nature</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">
+          Mindful Focus: <span class="text-primary font-semibold">4 milestones scheduled</span>
+</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container px-space-xs py-0.5 rounded-full font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+        Today
+      </span>
+</div>
+<!-- Calendar View Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_16px_-2px_rgba(18,42,36,0.05),0_1px_3px_0_rgba(18,42,36,0.03)] p-space-md flex flex-col gap-space-md">
+<!-- Month Selector Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">September 2026</h2>
+<p class="font-body-sm text-body-sm text-outline">Autumn Equinox Sprint</p>
+</div>
+</div>
+<div class="flex items-center gap-space-2xs">
+<button aria-label="Previous month" class="w-8 h-8 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant flex items-center justify-center transition-transform active:scale-90">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button aria-label="Next month" class="w-8 h-8 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant flex items-center justify-center transition-transform active:scale-90">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Calendar Matrix -->
+<div class="flex flex-col gap-space-xs">
+<!-- Weekday Labels -->
+<div class="grid grid-cols-7 text-center font-label-sm text-label-sm text-outline font-semibold pb-space-2xs">
+<span>Sun</span>
+<span>Mon</span>
+<span>Tue</span>
+<span>Wed</span>
+<span>Thu</span>
+<span>Fri</span>
+<span>Sat</span>
+</div>
+<!-- Days Grid (September 2026: starts Tuesday 1st) -->
+<div class="grid grid-cols-7 gap-y-2 text-center items-center select-none" id="calendarDays">
+<!-- Sun, Mon empty offsets -->
+<div class="h-9 flex flex-col items-center justify-center text-surface-dim font-body-sm text-body-sm">30</div>
+<div class="h-9 flex flex-col items-center justify-center text-surface-dim font-body-sm text-body-sm">31</div>
+<!-- 1 to 5 -->
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">1</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">2</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">3</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">4</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">5</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<!-- 6 to 12 -->
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">6</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">7</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">8</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">9</span>
+<span class="w-1 h-1 rounded-full bg-primary-fixed-dim"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">10</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">11</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">12</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<!-- 13 to 19 -->
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-error">13</span>
+<span class="w-1 h-1 rounded-full bg-error"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">14</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">15</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">16</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">17</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">18</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">19</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<!-- 20 to 26 (Day 20 highlighted active!) -->
+<div class="h-9 flex flex-col items-center justify-center relative cursor-pointer group">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_4px_10px_rgba(0,69,54,0.3)] transform transition-transform group-hover:scale-105">
+<span class="font-label-md text-label-md font-bold">20</span>
+</div>
+<span class="w-1 h-1 rounded-full bg-primary-fixed -mt-0.5"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">21</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">22</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">23</span>
+<span class="w-1 h-1 rounded-full bg-error"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">24</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">25</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">26</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<!-- 27 to 30 -->
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">27</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">28</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">29</span>
+<span class="w-1 h-1 rounded-full bg-transparent"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="font-body-sm text-body-sm text-on-surface">30</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+</div>
+<div class="h-9 flex flex-col items-center justify-center text-surface-dim font-body-sm text-body-sm">1</div>
+<div class="h-9 flex flex-col items-center justify-center text-surface-dim font-body-sm text-body-sm">2</div>
+<div class="h-9 flex flex-col items-center justify-center text-surface-dim font-body-sm text-body-sm">3</div>
+</div>
+</div>
+<!-- Quick Legend & Weekly Micro Progress -->
+<div class="pt-space-xs flex items-center justify-between bg-surface-container-low/60 px-space-sm py-space-xs rounded-lg">
+<div class="flex items-center gap-space-xs">
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Done</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Exam / Due</span>
+</div>
+</div>
+<div class="font-label-sm text-label-sm text-primary font-semibold">
+          75% Complete
+        </div>
+</div>
+</div>
+<!-- Section Header: Tasks on 20 Sep 2026 -->
+<div class="flex items-center justify-between mt-space-2xs">
+<div class="flex items-center gap-space-2xs min-w-0">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">
+          Tasks on 20 Sep 2026
+        </h3>
+</div>
+<button class="flex items-center gap-1 bg-primary-container text-on-primary font-label-sm text-label-sm px-space-sm py-1.5 rounded-full shadow-sm active:scale-95 transition-all hover:bg-primary" id="openQuickAddBtn">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add Task</span>
+</button>
+</div>
+<!-- Daily Task List Cards -->
+<div class="flex flex-col gap-space-xs" id="dailyTaskList">
+<!-- Task 1: DBMS Assignment (High Priority) -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_4px_16px_-2px_rgba(18,42,36,0.04)] flex items-start gap-space-sm transition-all hover:shadow-md cursor-pointer">
+<button aria-label="Toggle task status" class="mt-0.5 w-5 h-5 rounded-md bg-secondary text-on-secondary flex items-center justify-center flex-shrink-0 transition-transform active:scale-90">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold line-through text-outline truncate">
+              Complete DBMS assignment
+            </span>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+              09:00 AM
+            </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap pt-0.5">
+<span class="bg-error-container text-on-error-container font-label-sm text-label-sm px-2 py-0.5 rounded-full font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">flag</span>
+              High Priority
+            </span>
+<span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded-full">
+              #cs-core
+            </span>
+<span class="text-secondary font-label-sm text-label-sm flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">attach_file</span>
+              2 files
+            </span>
+</div>
+</div>
+</div>
+<!-- Task 2: Study for MED 1 (Pending Exam) -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_4px_16px_-2px_rgba(18,42,36,0.04)] flex items-start gap-space-sm transition-all hover:shadow-md cursor-pointer">
+<button aria-label="Toggle task status" class="mt-0.5 w-5 h-5 rounded-md bg-surface-container-high hover:bg-primary hover:text-on-primary text-transparent flex items-center justify-center flex-shrink-0 transition-all active:scale-90">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">
+              Study for MED 1
+            </span>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+              11:00 AM
+            </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap pt-0.5">
+<span class="bg-surface-container-high text-primary font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">menu_book</span>
+              Midterm Prep
+            </span>
+<span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded-full">
+              Ch. 4 &amp; 5
+            </span>
+<span class="font-label-sm text-label-sm text-outline">
+              Library Floor 2
+            </span>
+</div>
+</div>
+</div>
+<!-- Task 3: Go to gym (Fitness) -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_4px_16px_-2px_rgba(18,42,36,0.04)] flex items-start gap-space-sm transition-all hover:shadow-md cursor-pointer">
+<button aria-label="Toggle task status" class="mt-0.5 w-5 h-5 rounded-md bg-surface-container-high hover:bg-primary hover:text-on-primary text-transparent flex items-center justify-center flex-shrink-0 transition-all active:scale-90">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">
+              Go to gym
+            </span>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+              06:00 PM
+            </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap pt-0.5">
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2 py-0.5 rounded-full font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">fitness_center</span>
+              Leg Day &amp; Cardio
+            </span>
+<span class="font-label-sm text-label-sm text-outline">
+              45 mins target
+            </span>
+</div>
+</div>
+</div>
+<!-- Task 4: Evening Reflection & Journal (Mindfulness) -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_4px_16px_-2px_rgba(18,42,36,0.04)] flex items-start gap-space-sm transition-all hover:shadow-md cursor-pointer">
+<button aria-label="Toggle task status" class="mt-0.5 w-5 h-5 rounded-md bg-surface-container-high hover:bg-primary hover:text-on-primary text-transparent flex items-center justify-center flex-shrink-0 transition-all active:scale-90">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">
+              Evening Reflection &amp; Journal
+            </span>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+              09:30 PM
+            </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap pt-0.5">
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2 py-0.5 rounded-full font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">self_improvement</span>
+              Mindfulness
+            </span>
+<span class="font-label-sm text-label-sm text-outline">
+              3 wins of today
+            </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Upcoming Events Timeline Preview -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_16px_-2px_rgba(18,42,36,0.05),0_1px_3px_0_rgba(18,42,36,0.03)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">view_timeline</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Timeline Preview</h4>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Today's Flow</span>
+</div>
+<!-- Timeline Track -->
+<div class="relative flex flex-col gap-space-sm pl-4 pt-space-xs">
+<!-- Vertical Spine Indicator Line -->
+<div class="absolute left-[7px] top-3 bottom-3 w-0.5 bg-surface-container-highest rounded-full"></div>
+<!-- 09:00 Block -->
+<div class="relative flex items-center gap-space-sm">
+<div class="w-3.5 h-3.5 rounded-full bg-secondary ring-4 ring-surface-container-lowest z-10"></div>
+<div class="flex-1 bg-surface-container-low px-space-sm py-2 rounded-lg flex items-center justify-between">
+<div class="min-w-0">
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate">DBMS Assignment Submission</p>
+<p class="font-body-sm text-body-sm text-outline">Turnitin portal upload</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold">09:00</span>
+</div>
+</div>
+<!-- 11:00 Block (Active highlight) -->
+<div class="relative flex items-center gap-space-sm">
+<div class="w-3.5 h-3.5 rounded-full bg-primary ring-4 ring-primary-fixed z-10"></div>
+<div class="flex-1 bg-primary-fixed/25 px-space-sm py-2 rounded-lg flex items-center justify-between">
+<div class="min-w-0">
+<p class="font-label-md text-label-md font-semibold text-primary truncate">MED 1 Group Study</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Focus block with Sarah &amp; Mark</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">11:00</span>
+</div>
+</div>
+<!-- 18:00 Block -->
+<div class="relative flex items-center gap-space-sm">
+<div class="w-3.5 h-3.5 rounded-full bg-outline ring-4 ring-surface-container-lowest z-10"></div>
+<div class="flex-1 bg-surface-container-low px-space-sm py-2 rounded-lg flex items-center justify-between">
+<div class="min-w-0">
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate">Evening Workout</p>
+<p class="font-body-sm text-body-sm text-outline">Strength Training &amp; Stretch</p>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-bold">18:00</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Daily Focus Quote Pill -->
+<div class="bg-surface-container px-space-md py-space-sm rounded-xl flex items-center gap-space-sm text-on-surface-variant">
+<div class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">psychology_alt</span>
+</div>
+<p class="font-body-sm text-body-sm leading-snug">
+        “One conscious breath, one intentional step. Momentum builds in silence.”
+      </p>
+</div>
+</div>
+<!-- Interactive Script for Micro-interactions -->
+<script>
+    (function() {
+      // Toggle Task Checkboxes
+      const taskList = document.getElementById('dailyTaskList');
+      if (taskList) {
+        taskList.addEventListener('click', function(e) {
+          const btn = e.target.closest('button');
+          if (!btn) return;
+          const isDone = btn.classList.contains('bg-secondary');
+          const title = btn.parentElement.querySelector('span.font-headline-sm');
+          
+          if (isDone) {
+            btn.classList.remove('bg-secondary', 'text-on-secondary');
+            btn.classList.add('bg-surface-container-high', 'text-transparent');
+            if (title) {
+              title.classList.remove('line-through', 'text-outline');
+            }
+          } else {
+            btn.classList.remove('bg-surface-container-high', 'text-transparent');
+            btn.classList.add('bg-secondary', 'text-on-secondary');
+            if (title) {
+              title.classList.add('line-through', 'text-outline');
+            }
+          }
+        });
+      }
+
+      // Add Task Action Micro-effect
+      const addBtn = document.getElementById('openQuickAddBtn');
+      if (addBtn) {
+        addBtn.addEventListener('click', function() {
+          const originalText = addBtn.innerHTML;
+          addBtn.innerHTML = '<span class="material-symbols-outlined text-[16px] animate-spin">sync</span><span>Creating...</span>';
+          setTimeout(() => {
+            addBtn.innerHTML = originalText;
+          }, 600);
+        });
+      }
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-4px_20px_rgba(0,69,54,0.05)]" data-active-classes="text-primary-container font-semibold"><div class="relative flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant hover:text-on-surface transition-all gap-0.5" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-14 h-14 rounded-xl transition-all gap-0.5 text-primary-container font-semibold" data-path="calendar" href="#"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm">Calendar</span></a><div class="relative -top-5 flex items-center justify-center"><a aria-label="Quick Add Task" class="w-[52px] h-[52px] rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_10px_20px_-4px_rgba(0,95,75,0.4)] active:scale-95 transition-transform" data-path="quick-add" href="#"><span class="material-symbols-outlined text-[28px]">add</span></a></div><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant hover:text-on-surface transition-all gap-0.5" data-path="history" href="#"><span class="material-symbols-outlined text-[22px]">history</span><span class="font-label-sm text-label-sm">History</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant hover:text-on-surface transition-all gap-0.5" data-path="analytics" href="#"><span class="material-symbols-outlined text-[22px]">insights</span><span class="font-label-sm text-label-sm">Summary</span></a></div></nav></body></html>
